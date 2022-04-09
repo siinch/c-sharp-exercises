@@ -1,0 +1,15 @@
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\c-sharp-exercises.csproj.AssemblyReference.cache
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\c-sharp-exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\c-sharp-exercises.AssemblyInfoInputs.cache
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\c-sharp-exercises.AssemblyInfo.cs
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\c-sharp-exercises.csproj.CoreCompileInputs.cache
+C:\Users\simon\gitrepos\c-sharp-exercises\bin\Debug\net6.0\c-sharp-exercises.exe
+C:\Users\simon\gitrepos\c-sharp-exercises\bin\Debug\net6.0\c-sharp-exercises.deps.json
+C:\Users\simon\gitrepos\c-sharp-exercises\bin\Debug\net6.0\c-sharp-exercises.runtimeconfig.json
+C:\Users\simon\gitrepos\c-sharp-exercises\bin\Debug\net6.0\c-sharp-exercises.dll
+C:\Users\simon\gitrepos\c-sharp-exercises\bin\Debug\net6.0\ref\c-sharp-exercises.dll
+C:\Users\simon\gitrepos\c-sharp-exercises\bin\Debug\net6.0\c-sharp-exercises.pdb
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\c-sharp-exercises.dll
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\ref\c-sharp-exercises.dll
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\c-sharp-exercises.pdb
+C:\Users\simon\gitrepos\c-sharp-exercises\obj\Debug\net6.0\c-sharp-exercises.genruntimeconfig.cache
