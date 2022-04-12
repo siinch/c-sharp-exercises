@@ -62,6 +62,21 @@ namespace exercises {
             Console.WriteLine($"Filter all values below 0 in {string.Join(" ", list)}:");
             Console.WriteLine(string.Join(" ", Filter(list, (value) => {return value < 0;})));
             Console.WriteLine("");
+
+            // write a function to concatinate two arrays
+            Type[] concatinate<Type>(Type[] first, Type[] second) {
+                Type[] result = new Type[first.Length + second.Length];
+
+                for(int i = 0; i < first.Length; i++)
+                    result[i] = first[i];
+
+                for(int i = 0; i < second.Length; i++)
+                    result[i + first.Length] = second[i];
+
+                return result;
+            }
+
+            Console.WriteLine($"{dataText} concatinated with itself: {concatinate(data, data)}");
         }
     }
 }
