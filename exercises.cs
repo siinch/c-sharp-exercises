@@ -76,7 +76,7 @@ namespace exercises {
                 return result;
             }
 
-            Console.WriteLine($"{dataText} concatinated with itself: {concatinate(data, data)}");
+            Console.WriteLine($"{dataText} concatinated with itself: {string.Join(" ", concatinate(data, data))}");
         }
     }
 }
