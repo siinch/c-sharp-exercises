@@ -77,6 +77,29 @@ namespace exercises {
             }
 
             Console.WriteLine($"{dataText} concatinated with itself: {string.Join(" ", concatinate(data, data))}");
+
+            // write a function to find the highest and lowest value in some data
+
+            Extremes GetExtremes(int[] data) {
+                Extremes result = new Extremes();
+                result.minimum = data[0];
+                result.maximum = data[0];
+                foreach(int value in data) {
+                    if(value < result.minimum)
+                        result.minimum = value;
+                    else if (value > result.maximum)
+                        result.maximum = value;
+                }
+                return result;
+            }
+            Extremes extremes = GetExtremes(data);
+            Console.WriteLine($"The extremes of {dataText} are {extremes.minimum} and {extremes.maximum}");
         }
+
+    }
+
+    struct Extremes {
+        public int minimum;
+        public int maximum;
     }
 }
