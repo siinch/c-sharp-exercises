@@ -94,6 +94,16 @@ namespace exercises {
             }
             Extremes extremes = GetExtremes(data);
             Console.WriteLine($"The extremes of {dataText} are {extremes.minimum} and {extremes.maximum}");
+
+            int[] symmetrical = {1, 2, 3, 4, 3, 2, 1};
+            // write a function to check if an array is symmetrical
+            bool isSymmetrical<Type>(Type[] data) {
+                for(int i = 0; i < data.Length/2; i++)
+                    return false;
+                return true;
+            }
+            
+            Console.WriteLine(5/2);
         }
 
     }
