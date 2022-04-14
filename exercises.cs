@@ -99,11 +99,13 @@ namespace exercises {
             // write a function to check if an array is symmetrical
             bool isSymmetrical<Type>(Type[] data) {
                 for(int i = 0; i < data.Length/2; i++)
-                    return false;
+                    if(!EqualityComparer<Type>.Default.Equals(data[i], data[data.Length-1-i]))
+                        return false;
                 return true;
             }
             
-            Console.WriteLine(5/2);
+            Console.WriteLine($"{dataText} is symmetrical: {isSymmetrical(data)}");
+            Console.WriteLine($"{string.Join(" ", symmetrical)} is symmetrical: {isSymmetrical(symmetrical)}");
         }
 
     }
