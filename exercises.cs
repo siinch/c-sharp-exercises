@@ -106,8 +106,22 @@ namespace exercises {
             
             Console.WriteLine($"{dataText} is symmetrical: {isSymmetrical(data)}");
             Console.WriteLine($"{string.Join(" ", symmetrical)} is symmetrical: {isSymmetrical(symmetrical)}");
-        }
+        
+            // write a function to determine the frequency of values in an array
+            Dictionary<int, int> frequency(int[] data) {
+                Dictionary<int, int> result = new Dictionary<int, int>();
+                foreach(int value in data)
+                    if(!result.ContainsKey(value))
+                        result.Add(value, 1);
+                    else
+                        result[value]++;
+                return result;
+            }
 
+            Console.WriteLine($"frequency of each value in {symmetrical}:");
+            foreach(KeyValuePair<int, int> kvp in frequency(symmetrical))
+                Console.WriteLine($"Value: {kvp.Key} Frequency: {kvp.Value}");
+        }
     }
 
     struct Extremes {
