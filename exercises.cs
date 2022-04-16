@@ -121,6 +121,17 @@ namespace exercises {
             Console.WriteLine($"frequency of each value in {symmetrical}:");
             foreach(KeyValuePair<int, int> kvp in frequency(symmetrical))
                 Console.WriteLine($"Value: {kvp.Key} Frequency: {kvp.Value}");
+        
+             // make a function to generate an array of random numbers
+            int[] genRandom(int count, int minimum, int maximum) {
+                Random random = new Random();
+                int[] result = new int[count];
+                for(int i = 0; i < count; i++)
+                    result[i] = random.Next(minimum, maximum);
+                return result;
+            }
+
+            Console.WriteLine($"randomly generated array: {string.Join(" ", genRandom(1000, -10, 10))}");
         }
     }
 
