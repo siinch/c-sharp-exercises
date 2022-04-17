@@ -131,7 +131,7 @@ namespace exercises {
                 return result;
             }
 
-            Console.WriteLine($"randomly generated array: {string.Join(" ", genRandom(1000, -10, 10))}");
+            Console.WriteLine($"randomly generated array: {string.Join(" ", genRandom(10, -10, 10))}");
 
             int[] reverse (int[] data) {
                 int[] result = new int[data.Length];
