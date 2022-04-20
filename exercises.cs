@@ -1,3 +1,5 @@
+using System.Numerics;
+
 namespace exercises {
     class Program {
         public delegate bool Callback(int value);
@@ -96,6 +98,7 @@ namespace exercises {
             Console.WriteLine($"The extremes of {dataText} are {extremes.minimum} and {extremes.maximum}");
 
             int[] symmetrical = {1, 2, 3, 4, 3, 2, 1};
+
             // write a function to check if an array is symmetrical
             bool isSymmetrical<Type>(Type[] data) {
                 for(int i = 0; i < data.Length/2; i++)
@@ -133,6 +136,7 @@ namespace exercises {
 
             Console.WriteLine($"randomly generated array: {string.Join(" ", genRandom(10, -10, 10))}");
 
+            // write a function to reverse an array
             int[] reverse (int[] data) {
                 int[] result = new int[data.Length];
                 for(int i = 0; i < data.Length; i++)
@@ -141,6 +145,16 @@ namespace exercises {
             }
 
             Console.WriteLine($"{dataText} reversed: {string.Join(" ", reverse(data))}");
+        
+            // write a function to calculate the factorial of a number
+            BigInteger factorial(int number) {
+                BigInteger result = 1;
+                for(int i = 2; i <= number; i++)
+                    result *= i;
+                return result;
+            }
+            int number = 30;
+            Console.WriteLine($"The factioal of {number}: {factorial(number)}");
         }
     }
 

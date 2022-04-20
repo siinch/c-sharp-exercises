@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simon\\gitrepos\\c-sharp-exercises\\c-sharp-exercises.csproj": {}
+    "C:\\Users\\sic\\gitrepos\\c-sharp-exercises\\c-sharp-exercises.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simon\\gitrepos\\c-sharp-exercises\\c-sharp-exercises.csproj": {
+    "C:\\Users\\sic\\gitrepos\\c-sharp-exercises\\c-sharp-exercises.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\gitrepos\\c-sharp-exercises\\c-sharp-exercises.csproj",
+        "projectUniqueName": "C:\\Users\\sic\\gitrepos\\c-sharp-exercises\\c-sharp-exercises.csproj",
         "projectName": "c-sharp-exercises",
-        "projectPath": "C:\\Users\\simon\\gitrepos\\c-sharp-exercises\\c-sharp-exercises.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\gitrepos\\c-sharp-exercises\\obj\\",
+        "projectPath": "C:\\Users\\sic\\gitrepos\\c-sharp-exercises\\c-sharp-exercises.csproj",
+        "packagesPath": "C:\\Users\\sic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sic\\gitrepos\\c-sharp-exercises\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sic\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
