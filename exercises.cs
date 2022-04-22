@@ -156,13 +156,24 @@ namespace exercises {
             int number = 30;
             Console.WriteLine($"The factioal of {number}: {factorial(number)}");
         
-            // write a fucntion to calculate the hypotenuse of a right angled triangle
+            // write a function to calculate the hypotenuse of a right angled triangle
             double hypotenuse(double a, double b) {
                 return Math.Sqrt(a*a+b*b);
             }
             double a = 4;
             double b = 3;
             Console.WriteLine($"The hypotenuse of triangle with adjacents {a} and {b}: {hypotenuse(a, b)}");
+
+            // write a function to check if all elements in an array are identical
+            int[] homogenous = {5, 5, 5, 5, 5};
+            bool isHomogenous<Type>(Type[] data) {
+                foreach(Type value in data)
+                    if(!EqualityComparer<Type>.Default.Equals(value, data[0]))
+                        return false;
+                return true;
+            }
+            Console.WriteLine($"{string.Join(" ", homogenous)} is homogenous: {isHomogenous(homogenous)}");
+            Console.WriteLine($"{dataText} is homogenous: {isHomogenous(data)}");
         }
     }
 
